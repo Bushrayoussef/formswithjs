@@ -19,18 +19,20 @@
            <div class="col-lg-4">
 
                <br/><br/>
-               <form  name="register_form" action=""  method="POST"  onsubmit="return regester()"  >
+               <form  name="register_form" action=""  method="POST"  onsubmit="return register()"  >
                <label for="Fullname"  class="form-lable">Full Name:</label>
                <input type="text" 
                 name="Fullname" 
                 id="Fullname"  
                 placeholder="Fullname"
                 class="form-control"  />
+                <div id="fullname_alert" style="color: red;"></div>
+
 
 
                <label for="Email"  class="form-lable">Email:</label>
                <input type="text" 
-                required //מחייב את היוזר למלא שדא
+                
                 name="Email" 
                 id="Email"  
                 placeholder="Email"
