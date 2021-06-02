@@ -15,9 +15,43 @@
     
    <div class="container">
        <div class="row">
-           <div class="col-lg-4">1</div>
-           <div class="col-lg-4">2</div>
-           <div class="col-lg-4">3</div>
+           <div class="col-lg-4"></div>
+           <div class="col-lg-4">
+
+               <br/><br/>
+               <form  name="register_form" action=""  method="POST"  onsubmit="return regester()"  >
+               <label for="Fullname"  class="form-lable">Full Name:</label>
+               <input type="text" 
+                name="Fullname" 
+                id="Fullname"  
+                placeholder="Fullname"
+                class="form-control"  />
+
+
+               <label for="Email"  class="form-lable">Email:</label>
+               <input type="text" 
+                required //מחייב את היוזר למלא שדא
+                name="Email" 
+                id="Email"  
+                placeholder="Email"
+                class="form-control"  />
+
+
+               <label for="Password"  class="form-lable">Password:</label>
+               <input type="password" 
+                name="Password" 
+                id="Password"  
+                placeholder="Password"
+               class="form-control"  />
+
+
+               <br/>
+               <input type="submit" form="regester_form" value="register"  class="btn btn-primary" />
+            </form>
+
+
+           </div>
+           <div class="col-lg-4"></div>
            
 
 
